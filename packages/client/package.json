@@ -1,0 +1,40 @@
+{
+  "name": "@sonda/client",
+  "version": "0.1.0",
+  "description": "Drop-in Lit screenshot annotation and manual rrweb replay widget.",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@rrweb/record": "2.1.6",
+    "@rrweb/replay": "2.1.6",
+    "@rrweb/types": "2.1.6",
+    "@zumer/snapdom": "3.2.0",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@sonda/buddy": "workspace:*",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

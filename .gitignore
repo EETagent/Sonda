@@ -1,0 +1,16 @@
+node_modules/
+dist/
+demo-dist/
+test-results/
+playwright-report/
+.DS_Store
+.svelte-kit/
+apps/backend/build/
+apps/backend/data/
+.env
+.env.*
+!.env.example
+
+.vercel/
+.vercel
+.env*

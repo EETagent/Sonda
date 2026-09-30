@@ -1,0 +1,34 @@
+{
+  "name": "@sonda/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --host 127.0.0.1 --port 3001",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=.env server.js",
+    "preview": "vite preview --host 127.0.0.1 --port 3001",
+    "prepare": "svelte-kit sync",
+    "typecheck": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "@rrweb/replay": "2.1.6",
+    "@rrweb/types": "2.1.6",
+    "@vercel/blob": "^2.8.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.2.12",
+    "@sveltejs/adapter-vercel": "^6.3.4",
+    "@sveltejs/kit": "^2.37.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@types/node": "^24.0.0",
+    "svelte": "^5.39.0",
+    "svelte-check": "^4.3.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^3.2.4"
+  }
+}

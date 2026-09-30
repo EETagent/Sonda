@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "warn"
+  },
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/demo-dist/**",
+    "**/.svelte-kit/**",
+    "**/build/**",
+    "**/test-results/**",
+    "**/playwright-report/**",
+    "apps/backend/data/**",
+    "reference/**"
+  ]
+}

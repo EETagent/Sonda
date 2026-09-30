@@ -1,0 +1,19 @@
+{
+  "name": "@sonda/buddy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./buddy-avatar.ts",
+    "./engine": "./engine/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "lit": "^3.3.1"
+  }
+}

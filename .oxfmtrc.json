@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "svelte": true,
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/demo-dist/**",
+    "**/.svelte-kit/**",
+    "**/build/**",
+    "**/test-results/**",
+    "**/playwright-report/**",
+    "apps/backend/data/**",
+    ".cursor/skills/**",
+    "pnpm-lock.yaml",
+    "reference/**"
+  ]
+}
