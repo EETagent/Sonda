@@ -1,5 +1,12 @@
 # Sonda
 
+
+<img width="1512" height="896" alt="image" src="https://github.com/user-attachments/assets/4bd4c908-278a-415f-a402-6190113f3508" />
+
+<img width="1455" height="870" alt="image" src="https://github.com/user-attachments/assets/52a9f3bb-9513-4539-b56d-1893d98a773e" />
+
+<img width="366" height="387" alt="image" src="https://github.com/user-attachments/assets/906d00d1-b0fa-4c10-989f-3be1aba04e37" />
+
 A Lit capture widget with a SvelteKit inbox for screenshots and rrweb session recordings.
 
 ## Development
